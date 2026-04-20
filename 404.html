@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Page Not Found — Stratus Aviation</title>
+  <meta name="robots" content="noindex, follow">
+  <meta http-equiv="refresh" content="4;url=/">
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    html,body{height:100%;background:#0A0A0A;color:#F7F8FA;font-family:'Inter',system-ui,sans-serif;display:flex;align-items:center;justify-content:center;text-align:center}
+    .wrap{display:flex;flex-direction:column;align-items:center;gap:20px;padding:40px}
+    .code{font-size:clamp(64px,12vw,120px);font-weight:700;letter-spacing:-.02em;color:rgba(247,248,250,.08);line-height:1}
+    .title{font-size:clamp(14px,2vw,18px);font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:rgba(192,199,208,.6)}
+    .sub{font-size:13px;color:rgba(74,85,104,.8);letter-spacing:.04em;line-height:1.7}
+    .link{display:inline-block;margin-top:8px;color:#F7F8FA;font-size:11px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;padding:14px 36px;border:1px solid rgba(192,199,208,.25);transition:border-color .2s}
+    .link:hover{border-color:rgba(192,199,208,.55)}
+    .rule{width:40px;height:1px;background:rgba(74,85,104,.35)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="code">404</div>
+    <div class="rule"></div>
+    <div class="title">Page Not Found</div>
+    <p class="sub">This route does not exist.<br>Redirecting to base in 4 seconds.</p>
+    <a href="/" class="link">Return to Stratus</a>
+  </div>
+  <script>setTimeout(()=>window.location.href='/',4000);</script>
+</body>
+</html>
